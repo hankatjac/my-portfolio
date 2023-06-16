@@ -1,19 +1,11 @@
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Outlet,
-} from "react-router-dom";
-
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
-import Services from './components/Services';
-import Portfolio from './components/Portfolio';
+import Services from "./components/Services";
+import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Menu from "./components/Menu";
 import Footer from "./components/Footer";
-
-
 
 const Layout = () => {
   return (
@@ -52,15 +44,12 @@ const router = createBrowserRouter([
       },
     ],
   },
-
 ]);
 
 function App() {
   return (
     <div className="app">
-    
-        <RouterProvider router={router} />
-   
+      <RouterProvider router={router} />
     </div>
   );
 }

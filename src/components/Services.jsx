@@ -10,28 +10,28 @@ const Services = () => {
             <div className="col-md-3 col-sm-6 text-center">
                 <div className="mt-5">
                     <div className="mb-2"><i className="bi-gem fs-1 text-primary"></i></div>
-                    <h3 className="h4 mb-2">Programming</h3>
+                    <h3 className="h4 mb-2 text-primary">Programming</h3>
                     <p className="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
                 </div>
             </div>
             <div className="col-md-3 col-sm-6 text-center">
                 <div className="mt-5">
                     <div className="mb-2"><i className="bi-laptop fs-1 text-primary"></i></div>
-                    <h3 className="h4 mb-2">Teaching</h3>
+                    <h3 className="h4 mb-2 text-success">Teaching</h3>
                     <p className="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
                 </div>
             </div>
             <div className="col-md-3 col-sm-6 text-center">
                 <div className="mt-5">
                     <div className="mb-2"><i className="bi-globe fs-1 text-primary"></i></div>
-                    <h3 className="h4 mb-2">Content creation</h3>
+                    <h3 className="h4 mb-2 text-danger">Content Creation</h3>
                     <p className="text-muted mb-0">You can use this design as is, or you can make changes!</p>
                 </div>
             </div>
             <div className="col-md-3 col-sm-6 text-center">
                 <div className="mt-5">
                     <div className="mb-2"><i className="bi-heart fs-1 text-primary"></i></div>
-                    <h3 className="h4 mb-2">Testing</h3>
+                    <h3 className="h4 mb-2 text-warning">Testing</h3>
                     <p className="text-muted mb-0">Is it really open source if it's not made with love?</p>
                 </div>
             </div>

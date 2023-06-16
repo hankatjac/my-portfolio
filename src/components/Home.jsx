@@ -13,7 +13,7 @@ const Home = () => {
                     </div>
                     <div className="col-lg-8 align-self-baseline">
                         <p className="text-white-75 mb-5">freelancer providing services for programming and web contents</p>
-                        <a className="btn btn-primary btn-xl" href="#about">Join me and let's get cracking</a>
+                        <a className="btn btn-primary btn-xl" href="/about">Join me and let's get cracking</a>
                     </div>
                 </div>
             </div>
