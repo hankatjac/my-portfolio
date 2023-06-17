@@ -9,19 +9,19 @@ const About = () => {
             <h2 className="text-white mt-0">Front-End</h2>
             <hr className="divider divider-light" />
             <p className="text-white-75 mb-4">
-              ReactJS, Angular, Redux, HTML, CSS, SCSS, NPM,
+              ReactJS, Context API, Redux, TanStack Query,HTML, CSS, SCSS,
               BootStrap, MaterialUI, TailwindCSS, StyledComponents
             </p>
             <h2 className="text-white mt-0">Back-End</h2>
             <hr className="divider divider-light" />
             <p className="text-white-75 mb-4">
-              NodeJS, Java Spring, .NET, ExpressJS, MySQL,
-              MongoDB, Sanity, MS SQL
+              NodeJS, REST API , ExpressJS, MySQL, MongoDB, Sanity, Strapi,
+              Cloudinary
             </p>
             <h2 className="text-white mt-0">Languages</h2>
             <hr className="divider divider-light" />
             <p className="text-white-75 mb-4">
-              JavaScript, Java, C#, TypeScript
+              JavaScript, Java, C#, TypeScript, HTML, CSS
             </p>
             <a className="btn btn-light btn-xl" href="#services">
               Get Started!
