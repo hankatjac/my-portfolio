@@ -28,7 +28,7 @@ const Services = () => {
               <p className="text-muted mb-0">
                 Instruct students on introductory-through-intermediate coding
                 principles and the fundamentals of JavaScript and other relevant
-                technologies to students new to coding via lectures, live coding
+                technologies via lectures, live coding
                 examples, and labs!{" "}
               </p>
             </div>
