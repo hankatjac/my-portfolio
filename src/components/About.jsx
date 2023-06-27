@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -23,9 +24,9 @@ const About = () => {
             <p className="text-white-75 mb-4">
               JavaScript, Java, C#, TypeScript
             </p>
-            <a className="btn btn-light btn-xl" href="#services">
+            <Link className="btn btn-light btn-xl" to="/services">
               Get Started!
-            </a>
+            </Link>
           </div>
         </div>
       </div>
