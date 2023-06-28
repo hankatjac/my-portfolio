@@ -23,7 +23,7 @@ const Portfolio = () => {
                             </div>
                         </a>
                     </div>
-                    <div className="col-lg-4 col-sm-6 mt-2 text-center">
+                    {/* <div className="col-lg-4 col-sm-6 mt-2 text-center">
                         <a className="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" target="_blank" title="Project Name">
                             <img className="img-fluid" src={require('../assets/img/portfolio/thumbnails/3.jpg')}  alt="..." />
                             <div className="portfolio-box-caption">
@@ -31,7 +31,7 @@ const Portfolio = () => {
                                 <div className="project-name">Dashboard Visualizer</div>
                             </div>
                         </a>
-                    </div>
+                    </div> */}
                     <div className="col-lg-4 col-sm-6 mt-2 text-center">
                         <a className="portfolio-box" href="https://hankatjac.github.io/will-pgm-school" target="_blank" title="Project Name">
                             <img className="img-fluid" src={require('../assets/img/portfolio/thumbnails/7.png')}  alt="..." />
@@ -41,7 +41,7 @@ const Portfolio = () => {
                             </div>
                         </a>
                     </div>
-                    <div className="col-lg-4 col-sm-6 mt-2">
+                    {/* <div className="col-lg-4 col-sm-6 mt-2">
                         <a className="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" target="_blank" title="Project Name">
                             <img className="img-fluid" src={require('../assets/img/portfolio/thumbnails/5.jpg')}  alt="..." />
                             <div className="portfolio-box-caption">
@@ -58,7 +58,7 @@ const Portfolio = () => {
                                 <div className="project-name">Spotify Clone</div>
                             </div>
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
