@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -28,8 +29,7 @@ const Services = () => {
               <p className="text-muted mb-0">
                 Instruct students on introductory-through-intermediate coding
                 principles and the fundamentals of JavaScript and other relevant
-                technologies via lectures, live coding
-                examples, and labs!{" "}
+                technologies via lectures, live coding examples, and labs!{" "}
               </p>
             </div>
           </div>
@@ -56,6 +56,14 @@ const Services = () => {
               </p>
             </div>
           </div>
+        </div>
+        <div className="mx-auto my-5 " style={{ width: "fit-content" }}>
+          <Link
+            className="btn btn-primary btn-xl  text-uppercase"
+            to="/portfolio"
+          >
+            portfolio
+          </Link>
         </div>
       </div>
     </section>
