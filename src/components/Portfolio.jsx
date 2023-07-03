@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio">
       <div className="container ">
-        <div className="row gap-5 justify-content-center">
+        <div className="row gap-5 m-1 justify-content-center">
           <div className="col-xl-4 col-md-6  text-center border border-5 border-primary">
             <a
               className="portfolio-box"
