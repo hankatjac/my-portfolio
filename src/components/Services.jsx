@@ -59,10 +59,10 @@ const Services = () => {
         </div>
         <div className="mx-auto my-5 " style={{ width: "fit-content" }}>
           <Link
-            className="btn btn-primary btn-xl  text-uppercase"
+            className="btn btn-success btn-xl"
             to="/portfolio"
           >
-            portfolio
+            Portfolio
           </Link>
         </div>
       </div>

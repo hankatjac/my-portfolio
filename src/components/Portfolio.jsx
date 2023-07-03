@@ -3,9 +3,9 @@ import React from "react";
 const Portfolio = () => {
   return (
     <div id="portfolio">
-      <div className="container-fluid">
-        <div className="row gap-1">
-          <div className="col-lg-4 col-sm-6  text-center border border-5 border-primary">
+      <div className="container ">
+        <div className="row gap-5 justify-content-center">
+          <div className="col-xl-4 col-md-6  text-center border border-5 border-primary">
             <a
               className="portfolio-box"
               href="https://www.exel-tech.com"
@@ -19,11 +19,11 @@ const Portfolio = () => {
               />
               <div className="portfolio-box-caption">
                 <div className="project-category text-white-50">Category</div>
-                <div className="project-name">ompany Website</div>
+                <div className="project-name">Small Company Website</div>
               </div>
             </a>
           </div>
-          <div className="col-lg-4 col-sm-6  text-center border border-5 border-primary">
+          <div className="col-xl-4 col-md-6  text-center border border-5 border-primary">
             <a
               className="portfolio-box"
               href="https://hankatjac.github.io/strapi-cloudinary-store-client"
@@ -41,7 +41,7 @@ const Portfolio = () => {
               </div>
             </a>
           </div>
-          {/* <div className="col-lg-4 col-sm-6 mt-2 text-center">
+          {/* <div className="col-xl-4 col-md-6 mt-2 text-center">
                         <a className="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" target="_blank" title="Project Name">
                             <img className="img-fluid" src={require('../assets/img/portfolio/thumbnails/3.jpg')}  alt="..." />
                             <div className="portfolio-box-caption">
@@ -50,7 +50,7 @@ const Portfolio = () => {
                             </div>
                         </a>
                     </div> */}
-          <div className="col-lg-4 col-sm-6  text-center border border-5 border-primary">
+          <div className="col-xl-4 col-md-6  text-center border border-5 border-primary">
             <a
               className="portfolio-box"
               href="https://hankatjac.github.io/will-pgm-school"
@@ -68,7 +68,7 @@ const Portfolio = () => {
               </div>
             </a>
           </div>
-          {/* <div className="col-lg-4 col-sm-6 mt-2">
+          {/* <div className="col-xl-4 col-md-6 mt-2">
                         <a className="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" target="_blank" title="Project Name">
                             <img className="img-fluid" src={require('../assets/img/portfolio/thumbnails/5.jpg')}  alt="..." />
                             <div className="portfolio-box-caption">
@@ -77,7 +77,7 @@ const Portfolio = () => {
                             </div>
                         </a>
                     </div>
-                    <div className="col-lg-4 col-sm-6 mt-2">
+                    <div className="col-xl-4 col-md-6 mt-2">
                         <a className="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" target="_blank" title="Project Name">
                             <img className="img-fluid" src={require('../assets/img/portfolio/thumbnails/6.jpg')}  alt="..." />
                             <div className="portfolio-box-caption p-3">
