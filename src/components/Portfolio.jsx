@@ -53,7 +53,7 @@ const Portfolio = () => {
           <div className="col-xl-4 col-md-6  text-center border border-5 border-primary">
             <a
               className="portfolio-box"
-              href="https://hankatjac.github.io/will-pgm-school"
+              href="https://hankatjac.github.io/will-pgm-studio"
               target="_blank"
               title="Project Name"
             >
@@ -64,7 +64,7 @@ const Portfolio = () => {
               />
               <div className="portfolio-box-caption">
                 <div className="project-category text-white-50">Category</div>
-                <div className="project-name">Task Management</div>
+                <div className="project-name">Small Tools Collection</div>
               </div>
             </a>
           </div>
